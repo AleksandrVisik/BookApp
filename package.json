@@ -1,0 +1,30 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Coll book app",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "bild": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": " https://aleksandrvisik.github.io/BookApp/"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Aleksandr Visotskiy",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "eslint": "^9.38.0",
+    "rollup": "^4.52.5",
+    "rollup-plugin-import-css": "^4.1.0"
+  },
+  "dependencies": {
+    "on-change": "^6.0.1"
+  }
+}
